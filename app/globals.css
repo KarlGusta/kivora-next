@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  --font-sans: var(--font-bricolage), sans-serif;
+  --color-kivora-cream: #fffbeb;
+  --color-kivora-ink: #111827;
+  --color-kivora-yellow: #ffe711;
+  --color-kivora-purple: #c994ff;
+  --color-kivora-teal: #45ad94;
+  --color-kivora-pink: #ff94e7;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: 18px;
+}
+
+@theme {
+  --color-kivora-surface: #f8fafc;
+}

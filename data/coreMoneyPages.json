@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Home",
+    "path": "/"
+  },
+  {
+    "title": "Pricing",
+    "path": "/pricing"
+  },
+  {
+    "title": "Kitchen Styles",
+    "navTitle": "Styles",
+    "path": "/kitchen-styles"
+  },
+  {
+    "title": "Kitchen Remodel Visualizer",
+    "navTitle": "Visualizer",
+    "path": "/kitchen-remodel-visualizer"
+  },
+  {
+    "title": "AI Kitchen Designer",
+    "navTitle": "AI Designer",
+    "path": "/ai-kitchen-designer"
+  },
+  {
+    "title": "Before & After Gallery",
+    "navTitle": "Gallery",
+    "path": "/before-after-gallery"
+  },
+  {
+    "title": "Kitchen Design Ideas",
+    "navTitle": "Ideas",
+    "path": "/kitchen-design-ideas"
+  },
+  {
+    "title": "AI Interior Design",
+    "navTitle": "Interior AI",
+    "path": "/ai-interior-design"
+  },
+  {
+    "title": "Kitchen Renovation Planner",
+    "navTitle": "Planner",
+    "path": "/kitchen-renovation-planner"
+  },
+  {
+    "title": "Upload Kitchen Photo",
+    "navTitle": "Upload",
+    "path": "/upload-kitchen-photo"
+  }
+]
