@@ -55,7 +55,7 @@ export const tools = [
     description:
       "Compare one-wall, galley, L-shaped, U-shaped, and island layouts for your space.",
     category: "planning",
-    status: "soon",
+    status: "live",
   },
   {
     slug: "kitchen-backsplash-calculator",
