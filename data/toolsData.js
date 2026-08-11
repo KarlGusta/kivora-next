@@ -31,7 +31,7 @@ export const tools = [
     description:
       "Estimate cabinet costs by size, material, and finish — usually your biggest line item.",
     category: "budget",
-    status: "soon",
+    status: "live",
   },
   {
     slug: "kitchen-remodel-budget-planner",
@@ -87,7 +87,7 @@ export const tools = [
     description:
       "Answer a few questions and find out which kitchen style actually fits you.",
     category: "design",
-    status: "soon",
+    status: "live",
   },
   {
     slug: "kitchen-color-palette-generator",
