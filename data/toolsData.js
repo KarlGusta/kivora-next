@@ -63,7 +63,7 @@ export const tools = [
     description:
       "Calculate square footage, tile count, and estimated cost for your backsplash.",
     category: "planning",
-    status: "soon",
+    status: "live",
   },
   {
     slug: "kitchen-flooring-calculator",
@@ -71,7 +71,7 @@ export const tools = [
     description:
       "Work out square footage, boxes needed, and material cost for new flooring.",
     category: "planning",
-    status: "soon",
+    status: "live",
   },
   {
     slug: "kitchen-remodel-checklist",
