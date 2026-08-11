@@ -79,7 +79,7 @@ export const tools = [
     description:
       "A step-by-step checklist for cosmetic, partial, or full kitchen remodels.",
     category: "planning",
-    status: "soon",
+    status: "live",
   },
   {
     slug: "kitchen-style-quiz",
@@ -95,7 +95,7 @@ export const tools = [
     description:
       "Generate a coordinated color palette from your cabinet, counter, and floor picks.",
     category: "design",
-    status: "soon",
+    status: "live",
   },
 ];
 
