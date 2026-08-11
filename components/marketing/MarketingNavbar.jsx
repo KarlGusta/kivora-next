@@ -18,6 +18,12 @@ export default function MarketingNavbar() {
 
         <div className="hidden items-center gap-4 md:flex">
           <Link
+            href="/tools"
+            className="text-sm font-semibold text-kivora-ink/70 transition-colors hover:text-kivora-ink"
+          >
+            Free Tools
+          </Link>
+          <Link
             href="/login"
             className="text-sm font-semibold text-kivora-ink/70 transition-colors hover:text-kivora-ink"
           >
@@ -48,6 +54,13 @@ export default function MarketingNavbar() {
       {isMenuOpen && (
         <div className="border-t border-kivora-ink/10 bg-kivora-cream px-5 py-5 md:hidden">
           <nav className="flex flex-col gap-4">
+            <Link
+              href="/tools"
+              className="text-sm font-semibold text-kivora-ink/70 transition-colors hover:text-kivora-ink"
+              onClick={closeMenu}
+            >
+              Free Tools
+            </Link>
             <Link
               href="/login"
               className="text-sm font-semibold text-kivora-ink/70 transition-colors hover:text-kivora-ink"
