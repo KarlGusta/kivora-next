@@ -6,6 +6,7 @@ import { Search, ArrowRight } from "lucide-react";
 import MarketingNavbar from "@/components/marketing/MarketingNavbar";
 import MarketingFooter from "@/components/marketing/MarketingFooter";
 import { getSortedBlogPosts } from "@/data/blogPosts";
+import { author } from "@/data/author";
 
 const sortedPosts = getSortedBlogPosts();
 
@@ -30,10 +31,15 @@ export default function BlogListPageClient() {
             <h1 className="max-w-4xl text-5xl font-semibold leading-[1.02] md:text-7xl">
               Kivora Insights
             </h1>
-            <p className="max-w-2xl text-lg leading-8 text-kivora-ink/70 md:text-xl">
-              Design smarter kitchens with AI: remodeling guides, visualization tips, and product
-              notes from Kivora.
-            </p>
+            <div>
+              <p className="max-w-2xl text-lg leading-8 text-kivora-ink/70 md:text-xl">
+                Design smarter kitchens with AI: remodeling guides, visualization tips, and product
+                notes from Kivora.
+              </p>
+              <p className="mt-4 text-sm font-medium text-kivora-ink/50">
+                Written by {author.name}, {author.role}
+              </p>
+            </div>
           </div>
         </header>
 
@@ -92,6 +98,7 @@ export default function BlogListPageClient() {
                         year: "numeric",
                       })}
                     </p>
+                    <p className="text-kivora-ink/40">{author.name}</p>
                   </div>
 
                   <div>
