@@ -39,7 +39,7 @@ export const tools = [
     description:
       "Split a total budget across cabinets, countertops, appliances, and labor.",
     category: "budget",
-    status: "soon",
+    status: "live",
   },
   {
     slug: "kitchen-island-size-calculator",
@@ -47,7 +47,7 @@ export const tools = [
     description:
       "Find the right island dimensions and clearance for your kitchen's footprint.",
     category: "planning",
-    status: "soon",
+    status: "live",
   },
   {
     slug: "kitchen-layout-planner",
