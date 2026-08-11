@@ -44,7 +44,7 @@ export default function DashboardLayout({ children }) {
 
   if (isAuthLoading || !user) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-kivora-cream px-5 text-kivora-ink">
+      <div className="flex min-h-screen items-center justify-center bg-kivora-surface px-5 text-kivora-ink">
         <div className="flex items-center gap-3 text-sm font-semibold">
           <Loader2 className="h-5 w-5 animate-spin" />
           Preparing Kivora
@@ -55,6 +55,7 @@ export default function DashboardLayout({ children }) {
 
   return (
     <div className="min-h-screen bg-kivora-surface text-kivora-ink lg:flex">
+      {/* Sidebar — same surface color as surrounding area */}
       <aside
         className={`border-b border-kivora-ink/10 bg-kivora-surface transition-[width] duration-300 lg:sticky lg:top-0 lg:flex lg:h-screen lg:shrink-0 lg:flex-col lg:border-b-0 lg:border-r ${
           isSidebarCollapsed ? "lg:w-20" : "lg:w-64"
@@ -116,8 +117,9 @@ export default function DashboardLayout({ children }) {
         </nav>
       </aside>
 
-      <div className="flex min-w-0 flex-1 flex-col">
-        <header className="border-b border-kivora-ink/10">
+      {/* Main column — surface background; content sits in a card */}
+      <div className="flex min-w-0 flex-1 flex-col bg-kivora-surface">
+        <header className="bg-kivora-surface">
           <div className="flex min-h-16 items-center justify-end gap-4 px-5 py-4 md:px-8">
             <div className="flex min-w-0 items-center gap-4">
               <span className="hidden truncate text-sm font-medium text-kivora-ink/55 sm:inline">
@@ -136,11 +138,15 @@ export default function DashboardLayout({ children }) {
           </div>
         </header>
 
-        <main className="mx-auto w-full max-w-7xl flex-1 px-5 py-8 md:px-8">
-          <AppShellContext.Provider value={{ user, logout }}>{children}</AppShellContext.Provider>
+        {/* Dashboard content in a card (Gmail-style) */}
+        <main className="mx-auto w-full max-w-7xl flex-1 px-5 pb-6 md:px-8">
+          <div className="rounded-2xl border border-kivora-ink/10 bg-white p-5 shadow-sm md:p-8">
+            <AppShellContext.Provider value={{ user, logout }}>{children}</AppShellContext.Provider>
+          </div>
         </main>
 
-        <footer className="border-t border-kivora-ink/10 px-5 py-8 md:px-8">
+        {/* Footer — same surface color as surrounding areas */}
+        <footer className="bg-kivora-surface px-5 py-8 md:px-8">
           <div className="mx-auto flex w-full max-w-7xl flex-col gap-5 text-sm text-kivora-ink/50 md:flex-row md:items-center md:justify-between">
             <p>© {currentYear} Kivora</p>
             <nav className="flex flex-wrap gap-x-6 gap-y-3" aria-label="App footer">
