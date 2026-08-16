@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Auth and private app areas
+Disallow: /login
+Disallow: /register
+Disallow: /dashboard
+Disallow: /create
+Disallow: /history
+Disallow: /results
+Disallow: /settings
+
+# Allow primary public SEO surfaces
+Allow: /blog
+Allow: /tools
+
+Sitemap: https://kivora.collabtower.com/sitemap.xml
