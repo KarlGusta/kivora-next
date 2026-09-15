@@ -9,7 +9,7 @@ export const metadata = {
   description:
     "Kivora resources for AI kitchen design — guides, free remodel tools, competitor alternatives, and the AI Kitchen Design pillar for planning remodels with confidence.",
   keywords:
-    "ai kitchen design, ai kitchen designer, kitchen remodel resources, kitchen design guides, free kitchen tools, planner 5d alternatives, roomgpt alternatives, reimaginehome alternatives, kivora resources",
+    "ai kitchen design, ai kitchen designer, kitchen remodel resources, kitchen design guides, free kitchen tools, planner 5d alternatives, roomgpt alternatives, reimaginehome alternatives, remodel ai alternatives, kivora resources",
   alternates: {
     canonical: "https://kivora.collabtower.com/resources",
   },
@@ -35,7 +35,7 @@ const pillarPages = [
     href: "/alternatives",
     label: "Competitor Alternatives",
     description:
-      "High-intent comparison hub for Planner 5D, RoomGPT, REimagineHome, and other kitchen design tools — when to switch to photo-based AI remodel visualization.",
+      "High-intent comparison hub for Planner 5D, RoomGPT, REimagineHome, Remodel AI, and other kitchen design tools — when to switch to photo-based AI remodel visualization.",
     badge: "Pillar",
   },
 ];
@@ -58,6 +58,12 @@ const clusterPages = [
     label: "REimagineHome Alternatives",
     description:
       "Best REimagineHome alternatives for kitchen remodel visualization — focused photo-to-concept workflow for remodel decisions.",
+  },
+  {
+    href: "/remodel-ai-alternatives",
+    label: "Remodel AI Alternatives",
+    description:
+      "Best Remodel AI alternatives for kitchen remodel visualization — kitchen-first concepts for remodel decisions and sharing.",
   },
 ];
 
