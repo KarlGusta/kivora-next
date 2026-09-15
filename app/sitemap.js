@@ -28,19 +28,6 @@ function dedupe(entries) {
 /**
  * Automatic sitemap built from real app routes + data modules.
  * Only public, indexable pages are included.
- *
- * Included:
- * - Homepage
- * - Resources hub + AI Kitchen Design pillar
- * - Competitor Alternatives pillar + cluster pages
- * - Competitor Comparisons pillar + cluster pages
- * - Blog index + individual posts (from data/blogPosts)
- * - Tools index + live tool pages (from data/toolsData)
- *
- * Excluded (not public SEO targets or not yet implemented):
- * - /login, /register
- * - Dashboard / create / history / results / settings
- * - Footer links that still 404 (pricing, kitchen-styles, terms, etc.)
  */
 export default function sitemap() {
   const staticPages = [
@@ -64,6 +51,7 @@ export default function sitemap() {
     entry("/kivora-vs-homedesignsai", new Date(), "weekly", 0.9),
     entry("/kivora-vs-homestyler", new Date(), "weekly", 0.9),
     entry("/planner-5d-vs-roomgpt", new Date(), "weekly", 0.9),
+    entry("/roomgpt-vs-reimaginehome", new Date(), "weekly", 0.9),
     entry("/blog", new Date(), "daily", 0.9),
     entry("/tools", new Date(), "weekly", 0.9),
   ];
