@@ -32,7 +32,7 @@ function dedupe(entries) {
  * Included:
  * - Homepage
  * - Resources hub + AI Kitchen Design pillar
- * - Competitor Alternatives pillar + Planner 5D / RoomGPT / REimagineHome / Remodel AI Alternatives clusters
+ * - Competitor Alternatives pillar + cluster pages
  * - Blog index + individual posts (from data/blogPosts)
  * - Tools index + live tool pages (from data/toolsData)
  *
@@ -51,6 +51,7 @@ export default function sitemap() {
     entry("/roomgpt-alternatives", new Date(), "weekly", 0.9),
     entry("/reimaginehome-alternatives", new Date(), "weekly", 0.9),
     entry("/remodel-ai-alternatives", new Date(), "weekly", 0.9),
+    entry("/homedesignsai-alternatives", new Date(), "weekly", 0.9),
     entry("/blog", new Date(), "daily", 0.9),
     entry("/tools", new Date(), "weekly", 0.9),
   ];
