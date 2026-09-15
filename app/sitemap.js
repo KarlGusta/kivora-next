@@ -54,6 +54,7 @@ export default function sitemap() {
     entry("/homedesignsai-alternatives", new Date(), "weekly", 0.9),
     entry("/decormatters-alternatives", new Date(), "weekly", 0.9),
     entry("/homestyler-alternatives", new Date(), "weekly", 0.9),
+    entry("/interior-ai-alternatives", new Date(), "weekly", 0.9),
     entry("/blog", new Date(), "daily", 0.9),
     entry("/tools", new Date(), "weekly", 0.9),
   ];
