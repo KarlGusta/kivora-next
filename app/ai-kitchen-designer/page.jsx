@@ -7,42 +7,60 @@ import { purchaseUrl } from "@/data/commercialPages";
 const SITE_URL = "https://kivora.collabtower.com";
 
 export const metadata = {
-  title: "AI Kitchen Design | Design Kitchens from One Photo",
+  title: "AI Kitchen Designer | AI Kitchen Design from One Photo",
   description:
-    "AI kitchen design with Kivora — upload one photo of your kitchen and generate realistic remodel concepts in seconds. Compare styles before you renovate.",
+    "AI kitchen designer by Kivora — upload one photo and get realistic AI kitchen design concepts in seconds. Compare styles before you renovate.",
   keywords:
-    "ai kitchen design, ai kitchen designer, ai kitchen remodel, kitchen design ai, ai kitchen visualizer, kitchen remodel ai",
+    "ai kitchen design, ai kitchen designer, ai kitchen remodel, kitchen design ai, ai kitchen visualizer, kitchen remodel ai, online kitchen designer",
   alternates: {
     canonical: `${SITE_URL}/ai-kitchen-designer`,
   },
   openGraph: {
-    title: "AI Kitchen Design | Kivora",
+    title: "AI Kitchen Designer | AI Kitchen Design | Kivora",
     description:
-      "Upload one photo and generate realistic AI kitchen remodel concepts. Compare styles before you spend.",
+      "Upload one photo and generate realistic AI kitchen design concepts. Your online AI kitchen designer for remodel previews.",
     url: `${SITE_URL}/ai-kitchen-designer`,
     siteName: "Kivora",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Kitchen Design | Kivora",
+    title: "AI Kitchen Designer | AI Kitchen Design | Kivora",
     description:
-      "Upload one photo and generate realistic AI kitchen remodel concepts in seconds.",
+      "Upload one photo and generate realistic AI kitchen design concepts in seconds.",
   },
 };
 
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "WebPage",
-  name: "AI Kitchen Design",
-  description:
-    "AI kitchen design with Kivora — photo-based remodel visualization for homeowners and designers.",
-  url: `${SITE_URL}/ai-kitchen-designer`,
-  isPartOf: {
-    "@type": "WebSite",
-    name: "Kivora",
-    url: SITE_URL,
-  },
+  "@graph": [
+    {
+      "@type": "WebPage",
+      name: "AI Kitchen Design & AI Kitchen Designer",
+      description:
+        "AI kitchen design with Kivora — photo-based remodel visualization. Use Kivora as your AI kitchen designer.",
+      url: `${SITE_URL}/ai-kitchen-designer`,
+      isPartOf: {
+        "@type": "WebSite",
+        name: "Kivora",
+        url: SITE_URL,
+      },
+    },
+    {
+      "@type": "SoftwareApplication",
+      name: "Kivora AI Kitchen Designer",
+      applicationCategory: "DesignApplication",
+      operatingSystem: "Web",
+      description:
+        "Online AI kitchen designer that turns one photo into realistic kitchen remodel concepts.",
+      url: `${SITE_URL}/ai-kitchen-designer`,
+      offers: {
+        "@type": "Offer",
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+  ],
 };
 
 const benefits = [
@@ -100,15 +118,15 @@ export default function AiKitchenDesignPillarPage() {
             </nav>
 
             <p className="mb-6 text-sm font-medium uppercase tracking-[0.22em] text-kivora-purple">
-              Pillar · AI Kitchen Design
+              Pillar · AI Kitchen Design & Designer
             </p>
             <h1 className="max-w-4xl text-5xl font-semibold leading-[1.02] md:text-7xl">
               AI kitchen design from a single photo.
             </h1>
             <p className="mt-8 max-w-2xl text-lg leading-8 text-kivora-ink/70 md:text-xl">
-              AI kitchen design with Kivora turns one photo of your current kitchen into
-              realistic remodel concepts. Compare styles, share visuals, and make
-              renovation decisions with less guesswork.
+              Kivora is your AI kitchen designer: upload one photo of your current kitchen and
+              get realistic AI kitchen design concepts in seconds. Compare styles, share visuals,
+              and make renovation decisions with less guesswork.
             </p>
 
             <div className="mt-10 flex flex-col gap-3 sm:flex-row sm:items-center">
@@ -118,7 +136,7 @@ export default function AiKitchenDesignPillarPage() {
                 rel="noopener noreferrer"
                 className="inline-flex min-h-12 items-center justify-center gap-2 bg-kivora-yellow px-6 py-3 text-base font-semibold text-kivora-ink transition-colors hover:bg-kivora-purple"
               >
-                Visualize My Kitchen
+                Try the AI kitchen designer
                 <ArrowRight size={18} />
               </a>
               <Link
@@ -155,9 +173,9 @@ export default function AiKitchenDesignPillarPage() {
                 </h2>
               </div>
               <p className="max-w-2xl text-lg leading-8 text-kivora-ink/70">
-                Traditional mood boards and Pinterest saves rarely match your actual
-                layout, light, or cabinetry. AI kitchen design keeps the process concrete
-                by generating concepts from your real room.
+                Traditional mood boards and Pinterest saves rarely match your actual layout,
+                light, or cabinetry. An AI kitchen designer keeps the process concrete by
+                generating AI kitchen design concepts from your real room — not a stock template.
               </p>
             </div>
 
@@ -180,7 +198,7 @@ export default function AiKitchenDesignPillarPage() {
           <div className="mx-auto max-w-7xl">
             <div className="max-w-2xl">
               <p className="mb-4 text-sm font-medium uppercase tracking-[0.22em] text-kivora-purple">
-                How it works
+                How the AI kitchen designer works
               </p>
               <h2 className="text-4xl font-semibold leading-tight md:text-5xl">
                 From photo to direction in three steps.
@@ -209,8 +227,8 @@ export default function AiKitchenDesignPillarPage() {
               Start your AI kitchen design today.
             </h2>
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-kivora-ink/70">
-              Upload a photo and turn renovation ideas into realistic, download-ready
-              concepts you can share with confidence.
+              Use Kivora as your AI kitchen designer — upload a photo and turn renovation ideas
+              into realistic, download-ready concepts you can share with confidence.
             </p>
             <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <a
@@ -219,7 +237,7 @@ export default function AiKitchenDesignPillarPage() {
                 rel="noopener noreferrer"
                 className="inline-flex min-h-12 items-center justify-center gap-2 bg-kivora-yellow px-6 py-3 text-base font-semibold text-kivora-ink transition-colors hover:bg-kivora-purple"
               >
-                Visualize My Kitchen
+                Try the AI kitchen designer
                 <ArrowRight size={18} />
               </a>
               <Link
