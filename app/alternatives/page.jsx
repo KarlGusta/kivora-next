@@ -11,7 +11,7 @@ export const metadata = {
   description:
     "Compare Kivora with Planner 5D, RoomGPT, REimagineHome, Remodel AI, HomeDesignsAI, DecorMatters, Homestyler, Interior AI, and other kitchen design tools. High-intent alternatives for homeowners, designers, and remodel teams who want AI kitchen design from a single photo.",
   keywords:
-    "planner 5d alternatives, roomgpt alternatives, reimaginehome alternatives, remodel ai alternatives, homedesignsai alternatives, decormatters alternatives, homestyler alternatives, interior ai alternatives, kivora vs planner 5d, kivora vs roomgpt, kitchen design software alternatives, ai kitchen designer alternatives, best kitchen design tools, kivora alternatives",
+    "planner 5d alternatives, roomgpt alternatives, reimaginehome alternatives, remodel ai alternatives, homedesignsai alternatives, decormatters alternatives, homestyler alternatives, interior ai alternatives, kitchen design software alternatives, ai kitchen designer alternatives, best kitchen design tools, kivora alternatives",
   alternates: {
     canonical: `${SITE_URL}/alternatives`,
   },
@@ -84,31 +84,8 @@ const clusterPages = [
   },
 ];
 
-const comparisonPages = [
-  {
-    href: "/kivora-vs-planner-5d",
-    label: "Kivora vs Planner 5D",
-    description:
-      "Side-by-side matrix: photo-based AI kitchen remodel visualization vs traditional 2D/3D floor planning.",
-    badge: "Live",
-  },
-  {
-    href: "/kivora-vs-roomgpt",
-    label: "Kivora vs RoomGPT",
-    description:
-      "Side-by-side matrix: kitchen-focused AI remodel concepts vs general AI room restyling.",
-    badge: "Live",
-  },
-];
-
 const comingSoon = [
   "Best Planner 5D Alternatives",
-  "Homestyler vs Kivora",
-  "Interior AI vs Kivora",
-  "REimagineHome vs Kivora",
-  "Remodel AI vs Kivora",
-  "HomeDesignsAI vs Kivora",
-  "DecorMatters vs Kivora",
   "Planner 5D Alternatives for Kitchen Design",
   "RoomGPT Alternatives for Homeowners",
   "Free Planner 5D Alternatives",
@@ -146,8 +123,8 @@ export default function AlternativesPillarPage() {
               REimagineHome alternatives, Remodel AI alternatives, HomeDesignsAI
               alternatives, DecorMatters alternatives, Homestyler alternatives,
               Interior AI alternatives, or other kitchen design software? These
-              comparison pages help you evaluate options and see when Kivora’s
-              photo-based AI kitchen design is the faster path.
+              pages help you evaluate options and see when Kivora’s photo-based
+              AI kitchen design is the faster path.
             </p>
           </div>
         </header>
@@ -196,37 +173,20 @@ export default function AlternativesPillarPage() {
             Head-to-head comparisons
           </h2>
           <p className="mt-2 max-w-2xl text-sm leading-6 text-kivora-ink/60">
-            Direct comparison matrix pages for people already evaluating options.
+            Prefer a direct Kivora vs [Competitor] matrix? Those live under the
+            Competitor Comparisons pillar.
           </p>
-          <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {comparisonPages.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className="group block border border-kivora-ink/10 bg-white p-6 transition-colors hover:border-kivora-ink"
-              >
-                <div className="flex items-start justify-between gap-3">
-                  <h3 className="text-lg font-semibold text-kivora-ink">
-                    {item.label}
-                  </h3>
-                  {item.badge && (
-                    <span className="shrink-0 bg-kivora-purple/10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-kivora-purple">
-                      {item.badge}
-                    </span>
-                  )}
-                </div>
-                <p className="mt-3 text-sm leading-6 text-kivora-ink/65">
-                  {item.description}
-                </p>
-                <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-kivora-ink">
-                  View matrix
-                  <ArrowRight
-                    size={14}
-                    className="transition-transform group-hover:translate-x-0.5"
-                  />
-                </span>
-              </Link>
-            ))}
+          <div className="mt-8">
+            <Link
+              href="/comparisons"
+              className="group inline-flex items-center gap-2 border border-kivora-ink/10 bg-white px-6 py-4 text-sm font-semibold text-kivora-ink transition-colors hover:border-kivora-ink"
+            >
+              Competitor Comparisons pillar
+              <ArrowRight
+                size={14}
+                className="transition-transform group-hover:translate-x-0.5"
+              />
+            </Link>
           </div>
         </section>
 

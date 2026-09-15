@@ -32,7 +32,8 @@ function dedupe(entries) {
  * Included:
  * - Homepage
  * - Resources hub + AI Kitchen Design pillar
- * - Competitor Alternatives pillar + cluster + comparison pages
+ * - Competitor Alternatives pillar + cluster pages
+ * - Competitor Comparisons pillar + cluster pages
  * - Blog index + individual posts (from data/blogPosts)
  * - Tools index + live tool pages (from data/toolsData)
  *
@@ -47,6 +48,7 @@ export default function sitemap() {
     entry("/resources", new Date(), "weekly", 0.95),
     entry("/ai-kitchen-designer", new Date(), "weekly", 0.95),
     entry("/alternatives", new Date(), "weekly", 0.95),
+    entry("/comparisons", new Date(), "weekly", 0.95),
     entry("/planner-5d-alternatives", new Date(), "weekly", 0.9),
     entry("/roomgpt-alternatives", new Date(), "weekly", 0.9),
     entry("/reimaginehome-alternatives", new Date(), "weekly", 0.9),
@@ -57,6 +59,7 @@ export default function sitemap() {
     entry("/interior-ai-alternatives", new Date(), "weekly", 0.9),
     entry("/kivora-vs-planner-5d", new Date(), "weekly", 0.9),
     entry("/kivora-vs-roomgpt", new Date(), "weekly", 0.9),
+    entry("/kivora-vs-reimaginehome", new Date(), "weekly", 0.9),
     entry("/blog", new Date(), "daily", 0.9),
     entry("/tools", new Date(), "weekly", 0.9),
   ];

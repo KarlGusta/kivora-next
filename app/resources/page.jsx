@@ -7,16 +7,16 @@ import { purchaseUrl } from "@/data/commercialPages";
 export const metadata = {
   title: "Resources",
   description:
-    "Kivora resources for AI kitchen design — guides, free remodel tools, competitor alternatives, and the AI Kitchen Design pillar for planning remodels with confidence.",
+    "Kivora resources for AI kitchen design — guides, free remodel tools, competitor alternatives, competitor comparisons, and the AI Kitchen Design pillar for planning remodels with confidence.",
   keywords:
-    "ai kitchen design, ai kitchen designer, kitchen remodel resources, kitchen design guides, free kitchen tools, planner 5d alternatives, roomgpt alternatives, reimaginehome alternatives, remodel ai alternatives, homedesignsai alternatives, decormatters alternatives, homestyler alternatives, interior ai alternatives, kivora resources",
+    "ai kitchen design, ai kitchen designer, kitchen remodel resources, kitchen design guides, free kitchen tools, planner 5d alternatives, roomgpt alternatives, reimaginehome alternatives, kivora vs planner 5d, kivora vs roomgpt, kivora vs reimaginehome, kivora resources",
   alternates: {
     canonical: "https://kivora.collabtower.com/resources",
   },
   openGraph: {
     title: "Resources | Kivora",
     description:
-      "Guides, tools, competitor alternatives, and the AI Kitchen Design pillar — plan smarter kitchen remodels with Kivora.",
+      "Guides, tools, competitor alternatives, competitor comparisons, and the AI Kitchen Design pillar — plan smarter kitchen remodels with Kivora.",
     url: "https://kivora.collabtower.com/resources",
     siteName: "Kivora",
     type: "website",
@@ -35,7 +35,14 @@ const pillarPages = [
     href: "/alternatives",
     label: "Competitor Alternatives",
     description:
-      "High-intent comparison hub for Planner 5D, RoomGPT, REimagineHome, Remodel AI, HomeDesignsAI, DecorMatters, Homestyler, Interior AI, and other kitchen design tools — when to switch to photo-based AI remodel visualization.",
+      "High-intent “[Competitor] Alternatives” hub for Planner 5D, RoomGPT, REimagineHome, and other kitchen design tools.",
+    badge: "Pillar",
+  },
+  {
+    href: "/comparisons",
+    label: "Competitor Comparisons",
+    description:
+      "Head-to-head comparison matrices: Kivora vs Planner 5D, RoomGPT, REimagineHome, and more.",
     badge: "Pillar",
   },
 ];
@@ -89,6 +96,24 @@ const clusterPages = [
     description:
       "Best Interior AI alternatives for kitchen remodel visualization — kitchen-first concepts for remodel decisions and sharing.",
   },
+  {
+    href: "/kivora-vs-planner-5d",
+    label: "Kivora vs Planner 5D",
+    description:
+      "Side-by-side matrix: photo-based AI kitchen remodel visualization vs traditional 2D/3D floor planning.",
+  },
+  {
+    href: "/kivora-vs-roomgpt",
+    label: "Kivora vs RoomGPT",
+    description:
+      "Side-by-side matrix: kitchen-focused AI remodel concepts vs general AI room restyling.",
+  },
+  {
+    href: "/kivora-vs-reimaginehome",
+    label: "Kivora vs REimagineHome",
+    description:
+      "Side-by-side matrix: kitchen-first remodel visualization vs broad photo-based home redesign.",
+  },
 ];
 
 const resourceLinks = [
@@ -121,9 +146,9 @@ export default function ResourcesPage() {
               Design smarter kitchens with clearer decisions.
             </h1>
             <p className="max-w-2xl text-lg leading-8 text-kivora-ink/70 md:text-xl">
-              Start with the AI Kitchen Design pillar and Competitor Alternatives,
-              then use free tools and guides to plan layout, budget, and style
-              before you remodel.
+              Start with the AI Kitchen Design pillar, Competitor Alternatives,
+              and Competitor Comparisons, then use free tools and guides to plan
+              layout, budget, and style before you remodel.
             </p>
           </div>
         </header>
@@ -172,7 +197,7 @@ export default function ResourcesPage() {
             Cluster pages
           </h2>
           <p className="mt-2 max-w-2xl text-sm leading-6 text-kivora-ink/60">
-            High-intent comparison and supporting pages under the pillars.
+            High-intent alternatives and comparison pages under the pillars.
           </p>
           <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {clusterPages.map((item) => (
