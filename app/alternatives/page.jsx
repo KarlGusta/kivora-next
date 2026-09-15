@@ -9,16 +9,16 @@ const SITE_URL = "https://kivora.collabtower.com";
 export const metadata = {
   title: "Competitor Alternatives | Best Kitchen Design Tool Alternatives",
   description:
-    "Compare Kivora with Planner 5D, RoomGPT, REimagineHome, Remodel AI, HomeDesignsAI, and other kitchen design tools. High-intent alternatives for homeowners, designers, and remodel teams who want AI kitchen design from a single photo.",
+    "Compare Kivora with Planner 5D, RoomGPT, REimagineHome, Remodel AI, HomeDesignsAI, DecorMatters, and other kitchen design tools. High-intent alternatives for homeowners, designers, and remodel teams who want AI kitchen design from a single photo.",
   keywords:
-    "planner 5d alternatives, roomgpt alternatives, reimaginehome alternatives, remodel ai alternatives, homedesignsai alternatives, kitchen design software alternatives, ai kitchen designer alternatives, best kitchen design tools, kivora alternatives",
+    "planner 5d alternatives, roomgpt alternatives, reimaginehome alternatives, remodel ai alternatives, homedesignsai alternatives, decormatters alternatives, kitchen design software alternatives, ai kitchen designer alternatives, best kitchen design tools, kivora alternatives",
   alternates: {
     canonical: `${SITE_URL}/alternatives`,
   },
   openGraph: {
     title: "Competitor Alternatives | Kivora",
     description:
-      "High-intent comparison pages for Planner 5D, RoomGPT, REimagineHome, Remodel AI, HomeDesignsAI, and other kitchen design tools — see why teams switch to Kivora.",
+      "High-intent comparison pages for Planner 5D, RoomGPT, REimagineHome, Remodel AI, HomeDesignsAI, DecorMatters, and other kitchen design tools — see why teams switch to Kivora.",
     url: `${SITE_URL}/alternatives`,
     siteName: "Kivora",
     type: "website",
@@ -61,6 +61,13 @@ const clusterPages = [
       "Best HomeDesignsAI alternatives for kitchen remodel visualization — kitchen-first concepts for remodel decisions and sharing.",
     badge: "Live",
   },
+  {
+    href: "/decormatters-alternatives",
+    label: "DecorMatters Alternatives",
+    description:
+      "Best DecorMatters alternatives for kitchen remodel visualization — kitchen-first concepts for remodel decisions and sharing.",
+    badge: "Live",
+  },
 ];
 
 const comingSoon = [
@@ -70,6 +77,7 @@ const comingSoon = [
   "REimagineHome vs Kivora",
   "Remodel AI vs Kivora",
   "HomeDesignsAI vs Kivora",
+  "DecorMatters vs Kivora",
   "Planner 5D Alternatives for Kitchen Design",
   "RoomGPT Alternatives for Homeowners",
   "Free Planner 5D Alternatives",
@@ -105,9 +113,9 @@ export default function AlternativesPillarPage() {
             <p className="max-w-2xl text-lg leading-8 text-kivora-ink/70 md:text-xl">
               Looking for Planner 5D alternatives, RoomGPT alternatives,
               REimagineHome alternatives, Remodel AI alternatives, HomeDesignsAI
-              alternatives, or other kitchen design software? These comparison
-              pages help you evaluate options and see when Kivora’s photo-based
-              AI kitchen design is the faster path.
+              alternatives, DecorMatters alternatives, or other kitchen design
+              software? These comparison pages help you evaluate options and see
+              when Kivora’s photo-based AI kitchen design is the faster path.
             </p>
           </div>
         </header>
