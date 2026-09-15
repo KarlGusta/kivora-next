@@ -9,16 +9,16 @@ const SITE_URL = "https://kivora.collabtower.com";
 export const metadata = {
   title: "Competitor Alternatives | Best Kitchen Design Tool Alternatives",
   description:
-    "Compare Kivora with Planner 5D, RoomGPT, and other kitchen design tools. High-intent alternatives for homeowners, designers, and remodel teams who want AI kitchen design from a single photo.",
+    "Compare Kivora with Planner 5D, RoomGPT, REimagineHome, and other kitchen design tools. High-intent alternatives for homeowners, designers, and remodel teams who want AI kitchen design from a single photo.",
   keywords:
-    "planner 5d alternatives, roomgpt alternatives, kitchen design software alternatives, ai kitchen designer alternatives, best kitchen design tools, kivora alternatives",
+    "planner 5d alternatives, roomgpt alternatives, reimaginehome alternatives, kitchen design software alternatives, ai kitchen designer alternatives, best kitchen design tools, kivora alternatives",
   alternates: {
     canonical: `${SITE_URL}/alternatives`,
   },
   openGraph: {
     title: "Competitor Alternatives | Kivora",
     description:
-      "High-intent comparison pages for Planner 5D, RoomGPT, and other kitchen design tools — see why teams switch to Kivora.",
+      "High-intent comparison pages for Planner 5D, RoomGPT, REimagineHome, and other kitchen design tools — see why teams switch to Kivora.",
     url: `${SITE_URL}/alternatives`,
     siteName: "Kivora",
     type: "website",
@@ -40,12 +40,20 @@ const clusterPages = [
       "Best RoomGPT alternatives for kitchen-focused AI remodel visualization — photo-based concepts built for remodel decisions, not generic restyles.",
     badge: "Live",
   },
+  {
+    href: "/reimaginehome-alternatives",
+    label: "REimagineHome Alternatives",
+    description:
+      "Best REimagineHome alternatives for kitchen remodel visualization — focused photo-to-concept workflow for remodel decisions.",
+    badge: "Live",
+  },
 ];
 
 const comingSoon = [
   "Best Planner 5D Alternatives",
   "Planner 5D vs Kivora",
   "RoomGPT vs Kivora",
+  "REimagineHome vs Kivora",
   "Planner 5D Alternatives for Kitchen Design",
   "RoomGPT Alternatives for Homeowners",
   "Free Planner 5D Alternatives",
@@ -79,10 +87,10 @@ export default function AlternativesPillarPage() {
               High-intent alternatives to popular kitchen design tools.
             </h1>
             <p className="max-w-2xl text-lg leading-8 text-kivora-ink/70 md:text-xl">
-              Looking for Planner 5D alternatives, RoomGPT alternatives, or other
-              kitchen design software? These comparison pages help you evaluate
-              options and see when Kivora’s photo-based AI kitchen design is the
-              faster path.
+              Looking for Planner 5D alternatives, RoomGPT alternatives,
+              REimagineHome alternatives, or other kitchen design software? These
+              comparison pages help you evaluate options and see when Kivora’s
+              photo-based AI kitchen design is the faster path.
             </p>
           </div>
         </header>
