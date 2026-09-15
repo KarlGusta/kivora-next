@@ -14,6 +14,7 @@ const productLinks = [
 ];
 
 const resourceLinks = [
+  { href: "/resources", label: "Resources" },
   { href: "/tools", label: "Free Tools" },
   { href: "/alternatives", label: "Alternatives" },
   { href: "/use-cases", label: "Use Cases" },
