@@ -11,7 +11,7 @@ export const metadata = {
   description:
     "Compare Kivora with Planner 5D, RoomGPT, REimagineHome, Remodel AI, HomeDesignsAI, DecorMatters, Homestyler, Interior AI, and other kitchen design tools. High-intent alternatives for homeowners, designers, and remodel teams who want AI kitchen design from a single photo.",
   keywords:
-    "planner 5d alternatives, roomgpt alternatives, reimaginehome alternatives, remodel ai alternatives, homedesignsai alternatives, decormatters alternatives, homestyler alternatives, interior ai alternatives, kivora vs planner 5d, kitchen design software alternatives, ai kitchen designer alternatives, best kitchen design tools, kivora alternatives",
+    "planner 5d alternatives, roomgpt alternatives, reimaginehome alternatives, remodel ai alternatives, homedesignsai alternatives, decormatters alternatives, homestyler alternatives, interior ai alternatives, kivora vs planner 5d, kivora vs roomgpt, kitchen design software alternatives, ai kitchen designer alternatives, best kitchen design tools, kivora alternatives",
   alternates: {
     canonical: `${SITE_URL}/alternatives`,
   },
@@ -92,11 +92,17 @@ const comparisonPages = [
       "Side-by-side matrix: photo-based AI kitchen remodel visualization vs traditional 2D/3D floor planning.",
     badge: "Live",
   },
+  {
+    href: "/kivora-vs-roomgpt",
+    label: "Kivora vs RoomGPT",
+    description:
+      "Side-by-side matrix: kitchen-focused AI remodel concepts vs general AI room restyling.",
+    badge: "Live",
+  },
 ];
 
 const comingSoon = [
   "Best Planner 5D Alternatives",
-  "RoomGPT vs Kivora",
   "Homestyler vs Kivora",
   "Interior AI vs Kivora",
   "REimagineHome vs Kivora",
