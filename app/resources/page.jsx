@@ -7,16 +7,16 @@ import { purchaseUrl } from "@/data/commercialPages";
 export const metadata = {
   title: "Resources",
   description:
-    "Kivora resources for AI kitchen design — guides, free remodel tools, and the AI Kitchen Design pillar for planning remodels with confidence.",
+    "Kivora resources for AI kitchen design — guides, free remodel tools, competitor alternatives, and the AI Kitchen Design pillar for planning remodels with confidence.",
   keywords:
-    "ai kitchen design, ai kitchen designer, kitchen remodel resources, kitchen design guides, free kitchen tools, kivora resources",
+    "ai kitchen design, ai kitchen designer, kitchen remodel resources, kitchen design guides, free kitchen tools, planner 5d alternatives, kivora resources",
   alternates: {
     canonical: "https://kivora.collabtower.com/resources",
   },
   openGraph: {
     title: "Resources | Kivora",
     description:
-      "Guides, tools, and the AI Kitchen Design pillar — plan smarter kitchen remodels with Kivora.",
+      "Guides, tools, competitor alternatives, and the AI Kitchen Design pillar — plan smarter kitchen remodels with Kivora.",
     url: "https://kivora.collabtower.com/resources",
     siteName: "Kivora",
     type: "website",
@@ -30,6 +30,22 @@ const pillarPages = [
     description:
       "Main SEO pillar for “ai kitchen design” and “ai kitchen designer” — photo-based remodel previews and how to use Kivora as your online kitchen designer.",
     badge: "Main pillar",
+  },
+  {
+    href: "/alternatives",
+    label: "Competitor Alternatives",
+    description:
+      "High-intent comparison hub for Planner 5D and other kitchen design tools — when to switch to photo-based AI remodel visualization.",
+    badge: "Pillar",
+  },
+];
+
+const clusterPages = [
+  {
+    href: "/planner-5d-alternatives",
+    label: "Planner 5D Alternatives",
+    description:
+      "Best Planner 5D alternatives for AI kitchen design, realistic remodel previews, and faster decisions without heavy 3D modeling.",
   },
 ];
 
@@ -63,8 +79,9 @@ export default function ResourcesPage() {
               Design smarter kitchens with clearer decisions.
             </h1>
             <p className="max-w-2xl text-lg leading-8 text-kivora-ink/70 md:text-xl">
-              Start with the AI Kitchen Design pillar, then use free tools and
-              guides to plan layout, budget, and style before you remodel.
+              Start with the AI Kitchen Design pillar and Competitor Alternatives,
+              then use free tools and guides to plan layout, budget, and style
+              before you remodel.
             </p>
           </div>
         </header>
@@ -98,7 +115,42 @@ export default function ResourcesPage() {
                 </p>
                 <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-kivora-purple">
                   Read guide
-                  <ArrowRight size={14} className="transition-transform group-hover:translate-x-0.5" />
+                  <ArrowRight
+                    size={14}
+                    className="transition-transform group-hover:translate-x-0.5"
+                  />
+                </span>
+              </Link>
+            ))}
+          </div>
+        </section>
+
+        <section className="mx-auto max-w-7xl border-t border-kivora-ink/10 px-5 py-16 md:px-8">
+          <h2 className="text-2xl font-semibold text-kivora-ink md:text-3xl">
+            Cluster pages
+          </h2>
+          <p className="mt-2 max-w-2xl text-sm leading-6 text-kivora-ink/60">
+            High-intent comparison and supporting pages under the pillars.
+          </p>
+          <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {clusterPages.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="group block border border-kivora-ink/10 bg-white p-6 transition-colors hover:border-kivora-ink"
+              >
+                <h3 className="text-lg font-semibold text-kivora-ink">
+                  {item.label}
+                </h3>
+                <p className="mt-2 text-sm leading-6 text-kivora-ink/65">
+                  {item.description}
+                </p>
+                <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-kivora-ink">
+                  Read comparison
+                  <ArrowRight
+                    size={14}
+                    className="transition-transform group-hover:translate-x-0.5"
+                  />
                 </span>
               </Link>
             ))}
@@ -124,7 +176,10 @@ export default function ResourcesPage() {
                 </p>
                 <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-kivora-ink">
                   Explore
-                  <ArrowRight size={14} className="transition-transform group-hover:translate-x-0.5" />
+                  <ArrowRight
+                    size={14}
+                    className="transition-transform group-hover:translate-x-0.5"
+                  />
                 </span>
               </Link>
             ))}

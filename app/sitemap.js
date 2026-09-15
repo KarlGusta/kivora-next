@@ -32,6 +32,7 @@ function dedupe(entries) {
  * Included:
  * - Homepage
  * - Resources hub + AI Kitchen Design pillar
+ * - Competitor Alternatives pillar + Planner 5D Alternatives cluster
  * - Blog index + individual posts (from data/blogPosts)
  * - Tools index + live tool pages (from data/toolsData)
  *
@@ -45,6 +46,8 @@ export default function sitemap() {
     entry("/", new Date(), "weekly", 1),
     entry("/resources", new Date(), "weekly", 0.95),
     entry("/ai-kitchen-designer", new Date(), "weekly", 0.95),
+    entry("/alternatives", new Date(), "weekly", 0.95),
+    entry("/planner-5d-alternatives", new Date(), "weekly", 0.9),
     entry("/blog", new Date(), "daily", 0.9),
     entry("/tools", new Date(), "weekly", 0.9),
   ];
