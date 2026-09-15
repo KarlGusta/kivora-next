@@ -31,6 +31,7 @@ function dedupe(entries) {
  *
  * Included:
  * - Homepage
+ * - Resources hub + AI Kitchen Design pillar
  * - Blog index + individual posts (from data/blogPosts)
  * - Tools index + live tool pages (from data/toolsData)
  *
@@ -42,6 +43,8 @@ function dedupe(entries) {
 export default function sitemap() {
   const staticPages = [
     entry("/", new Date(), "weekly", 1),
+    entry("/resources", new Date(), "weekly", 0.95),
+    entry("/ai-kitchen-designer", new Date(), "weekly", 0.95),
     entry("/blog", new Date(), "daily", 0.9),
     entry("/tools", new Date(), "weekly", 0.9),
   ];
