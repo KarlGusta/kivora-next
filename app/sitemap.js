@@ -63,6 +63,7 @@ export default function sitemap() {
     entry("/kivora-vs-remodel-ai", new Date(), "weekly", 0.9),
     entry("/kivora-vs-homedesignsai", new Date(), "weekly", 0.9),
     entry("/kivora-vs-homestyler", new Date(), "weekly", 0.9),
+    entry("/planner-5d-vs-roomgpt", new Date(), "weekly", 0.9),
     entry("/blog", new Date(), "daily", 0.9),
     entry("/tools", new Date(), "weekly", 0.9),
   ];
