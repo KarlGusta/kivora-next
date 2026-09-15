@@ -9,7 +9,7 @@ export const metadata = {
   description:
     "Kivora resources for AI kitchen design — guides, free remodel tools, and the AI Kitchen Design pillar for planning remodels with confidence.",
   keywords:
-    "ai kitchen design, kitchen remodel resources, kitchen design guides, free kitchen tools, kivora resources",
+    "ai kitchen design, ai kitchen designer, kitchen remodel resources, kitchen design guides, free kitchen tools, kivora resources",
   alternates: {
     canonical: "https://kivora.collabtower.com/resources",
   },
@@ -28,7 +28,7 @@ const pillarPages = [
     href: "/ai-kitchen-designer",
     label: "AI Kitchen Design",
     description:
-      "Kivora’s main SEO pillar — how AI kitchen design works, what to expect from photo-based remodel previews, and when to use Kivora.",
+      "Main SEO pillar for “ai kitchen design” and “ai kitchen designer” — photo-based remodel previews and how to use Kivora as your online kitchen designer.",
     badge: "Main pillar",
   },
 ];
