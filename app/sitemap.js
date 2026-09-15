@@ -32,7 +32,7 @@ function dedupe(entries) {
  * Included:
  * - Homepage
  * - Resources hub + AI Kitchen Design pillar
- * - Competitor Alternatives pillar + cluster pages
+ * - Competitor Alternatives pillar + cluster + comparison pages
  * - Blog index + individual posts (from data/blogPosts)
  * - Tools index + live tool pages (from data/toolsData)
  *
@@ -55,6 +55,7 @@ export default function sitemap() {
     entry("/decormatters-alternatives", new Date(), "weekly", 0.9),
     entry("/homestyler-alternatives", new Date(), "weekly", 0.9),
     entry("/interior-ai-alternatives", new Date(), "weekly", 0.9),
+    entry("/kivora-vs-planner-5d", new Date(), "weekly", 0.9),
     entry("/blog", new Date(), "daily", 0.9),
     entry("/tools", new Date(), "weekly", 0.9),
   ];

@@ -11,7 +11,7 @@ export const metadata = {
   description:
     "Compare Kivora with Planner 5D, RoomGPT, REimagineHome, Remodel AI, HomeDesignsAI, DecorMatters, Homestyler, Interior AI, and other kitchen design tools. High-intent alternatives for homeowners, designers, and remodel teams who want AI kitchen design from a single photo.",
   keywords:
-    "planner 5d alternatives, roomgpt alternatives, reimaginehome alternatives, remodel ai alternatives, homedesignsai alternatives, decormatters alternatives, homestyler alternatives, interior ai alternatives, kitchen design software alternatives, ai kitchen designer alternatives, best kitchen design tools, kivora alternatives",
+    "planner 5d alternatives, roomgpt alternatives, reimaginehome alternatives, remodel ai alternatives, homedesignsai alternatives, decormatters alternatives, homestyler alternatives, interior ai alternatives, kivora vs planner 5d, kitchen design software alternatives, ai kitchen designer alternatives, best kitchen design tools, kivora alternatives",
   alternates: {
     canonical: `${SITE_URL}/alternatives`,
   },
@@ -84,9 +84,18 @@ const clusterPages = [
   },
 ];
 
+const comparisonPages = [
+  {
+    href: "/kivora-vs-planner-5d",
+    label: "Kivora vs Planner 5D",
+    description:
+      "Side-by-side matrix: photo-based AI kitchen remodel visualization vs traditional 2D/3D floor planning.",
+    badge: "Live",
+  },
+];
+
 const comingSoon = [
   "Best Planner 5D Alternatives",
-  "Planner 5D vs Kivora",
   "RoomGPT vs Kivora",
   "Homestyler vs Kivora",
   "Interior AI vs Kivora",
@@ -139,10 +148,10 @@ export default function AlternativesPillarPage() {
 
         <section className="mx-auto max-w-7xl px-5 py-16 md:px-8">
           <h2 className="text-2xl font-semibold text-kivora-ink md:text-3xl">
-            Live comparison pages
+            Live alternatives pages
           </h2>
           <p className="mt-2 max-w-2xl text-sm leading-6 text-kivora-ink/60">
-            Start with the highest-intent cluster pages.
+            High-intent “[Competitor] Alternatives” cluster pages.
           </p>
           <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {clusterPages.map((item) => (
@@ -166,6 +175,45 @@ export default function AlternativesPillarPage() {
                 </p>
                 <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-kivora-purple">
                   Read comparison
+                  <ArrowRight
+                    size={14}
+                    className="transition-transform group-hover:translate-x-0.5"
+                  />
+                </span>
+              </Link>
+            ))}
+          </div>
+        </section>
+
+        <section className="mx-auto max-w-7xl border-t border-kivora-ink/10 px-5 py-16 md:px-8">
+          <h2 className="text-2xl font-semibold text-kivora-ink md:text-3xl">
+            Head-to-head comparisons
+          </h2>
+          <p className="mt-2 max-w-2xl text-sm leading-6 text-kivora-ink/60">
+            Direct comparison matrix pages for people already evaluating options.
+          </p>
+          <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {comparisonPages.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="group block border border-kivora-ink/10 bg-white p-6 transition-colors hover:border-kivora-ink"
+              >
+                <div className="flex items-start justify-between gap-3">
+                  <h3 className="text-lg font-semibold text-kivora-ink">
+                    {item.label}
+                  </h3>
+                  {item.badge && (
+                    <span className="shrink-0 bg-kivora-purple/10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-kivora-purple">
+                      {item.badge}
+                    </span>
+                  )}
+                </div>
+                <p className="mt-3 text-sm leading-6 text-kivora-ink/65">
+                  {item.description}
+                </p>
+                <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-kivora-ink">
+                  View matrix
                   <ArrowRight
                     size={14}
                     className="transition-transform group-hover:translate-x-0.5"
