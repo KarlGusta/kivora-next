@@ -9,9 +9,9 @@ const SITE_URL = "https://kivora.collabtower.com";
 export const metadata = {
   title: "Competitor Comparisons | Kivora vs Kitchen Design Tools",
   description:
-    "Head-to-head comparison matrices: Kivora vs Planner 5D, RoomGPT, REimagineHome, Remodel AI, HomeDesignsAI, Homestyler, plus competitor-vs-competitor pages and best-of guides for AI kitchen design, remodel, and interior tools.",
+    "Head-to-head comparison matrices: Kivora vs Planner 5D, RoomGPT, REimagineHome, Remodel AI, HomeDesignsAI, Homestyler, plus competitor-vs-competitor pages and best-of guides for AI kitchen design, remodel, interior, and kitchen visualizer tools.",
   keywords:
-    "kivora vs planner 5d, kivora vs roomgpt, best ai kitchen design tools, best ai kitchen remodel tools, best ai interior design tools for kitchens, kitchen design comparison, competitor comparisons kivora",
+    "kivora vs planner 5d, kivora vs roomgpt, best ai kitchen design tools, best ai kitchen remodel tools, best kitchen visualizer, kitchen design comparison, competitor comparisons kivora",
   alternates: {
     canonical: `${SITE_URL}/comparisons`,
   },
@@ -110,6 +110,13 @@ const comparisonPages = [
       "Best-of guide for AI interior design tools used on kitchens — kitchen-first vs general interior AI vs planners.",
     badge: "Live",
   },
+  {
+    href: "/best-kitchen-visualizer",
+    label: "Best kitchen visualizer",
+    description:
+      "Best-of guide for kitchen visualizer tools — photo AI, 3D planners, and general room apps matched to remodel goals.",
+    badge: "Live",
+  },
 ];
 
 const comingSoon = [
@@ -146,7 +153,7 @@ export default function ComparisonsPillarPage() {
             <p className="max-w-2xl text-lg leading-8 text-kivora-ink/70 md:text-xl">
               Direct comparison matrices for Kivora vs major kitchen design tools
               — plus competitor-vs-competitor pages and best-of guides for AI
-              kitchen design, remodel, and interior tools.
+              kitchen design, remodel, interior, and visualizer tools.
             </p>
           </div>
         </header>
