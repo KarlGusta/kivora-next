@@ -9,9 +9,9 @@ const SITE_URL = "https://kivora.collabtower.com";
 export const metadata = {
   title: "Competitor Comparisons | Kivora vs Kitchen Design Tools",
   description:
-    "Head-to-head comparison matrices: Kivora vs Planner 5D, RoomGPT, REimagineHome, Remodel AI, HomeDesignsAI, Homestyler, plus Planner 5D vs RoomGPT, RoomGPT vs REimagineHome, Remodel AI vs RoomGPT, best AI kitchen design tools, and best AI kitchen remodel tools.",
+    "Head-to-head comparison matrices: Kivora vs Planner 5D, RoomGPT, REimagineHome, Remodel AI, HomeDesignsAI, Homestyler, plus competitor-vs-competitor pages and best-of guides for AI kitchen design, remodel, and interior tools.",
   keywords:
-    "kivora vs planner 5d, kivora vs roomgpt, kivora vs reimaginehome, planner 5d vs roomgpt, roomgpt vs reimaginehome, remodel ai vs roomgpt, best ai kitchen design tools, best ai kitchen remodel tools, kitchen design comparison, competitor comparisons kivora",
+    "kivora vs planner 5d, kivora vs roomgpt, best ai kitchen design tools, best ai kitchen remodel tools, best ai interior design tools for kitchens, kitchen design comparison, competitor comparisons kivora",
   alternates: {
     canonical: `${SITE_URL}/comparisons`,
   },
@@ -103,6 +103,13 @@ const comparisonPages = [
       "Best-of guide for remodel-focused AI tools — photo concepts, general remodel AI, and planners by stage.",
     badge: "Live",
   },
+  {
+    href: "/best-ai-interior-design-tools-for-kitchens",
+    label: "Best AI interior design tools for kitchens",
+    description:
+      "Best-of guide for AI interior design tools used on kitchens — kitchen-first vs general interior AI vs planners.",
+    badge: "Live",
+  },
 ];
 
 const comingSoon = [
@@ -137,10 +144,9 @@ export default function ComparisonsPillarPage() {
               Head-to-head comparisons with tools people already consider.
             </h1>
             <p className="max-w-2xl text-lg leading-8 text-kivora-ink/70 md:text-xl">
-              Direct comparison matrices for Kivora vs Planner 5D, RoomGPT,
-              REimagineHome, Remodel AI, HomeDesignsAI, Homestyler — plus
-              competitor-vs-competitor pages and best-of guides for AI kitchen
-              design and remodel tools.
+              Direct comparison matrices for Kivora vs major kitchen design tools
+              — plus competitor-vs-competitor pages and best-of guides for AI
+              kitchen design, remodel, and interior tools.
             </p>
           </div>
         </header>
