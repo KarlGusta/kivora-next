@@ -9,9 +9,9 @@ const SITE_URL = "https://kivora.collabtower.com";
 export const metadata = {
   title: "Competitor Comparisons | Kivora vs Kitchen Design Tools",
   description:
-    "Head-to-head comparison matrices: Kivora vs Planner 5D, RoomGPT, REimagineHome, Remodel AI, HomeDesignsAI, Homestyler, plus Planner 5D vs RoomGPT, RoomGPT vs REimagineHome, Remodel AI vs RoomGPT, and best AI kitchen design tools.",
+    "Head-to-head comparison matrices: Kivora vs Planner 5D, RoomGPT, REimagineHome, Remodel AI, HomeDesignsAI, Homestyler, plus Planner 5D vs RoomGPT, RoomGPT vs REimagineHome, Remodel AI vs RoomGPT, best AI kitchen design tools, and best AI kitchen remodel tools.",
   keywords:
-    "kivora vs planner 5d, kivora vs roomgpt, kivora vs reimaginehome, planner 5d vs roomgpt, roomgpt vs reimaginehome, remodel ai vs roomgpt, best ai kitchen design tools, kitchen design comparison, competitor comparisons kivora",
+    "kivora vs planner 5d, kivora vs roomgpt, kivora vs reimaginehome, planner 5d vs roomgpt, roomgpt vs reimaginehome, remodel ai vs roomgpt, best ai kitchen design tools, best ai kitchen remodel tools, kitchen design comparison, competitor comparisons kivora",
   alternates: {
     canonical: `${SITE_URL}/comparisons`,
   },
@@ -96,6 +96,13 @@ const comparisonPages = [
       "Best-of guide: photo visualizers, floor planners, and general room AI — matched to remodel goals.",
     badge: "Live",
   },
+  {
+    href: "/best-ai-kitchen-remodel-tools",
+    label: "Best AI kitchen remodel tools",
+    description:
+      "Best-of guide for remodel-focused AI tools — photo concepts, general remodel AI, and planners by stage.",
+    badge: "Live",
+  },
 ];
 
 const comingSoon = [
@@ -132,8 +139,8 @@ export default function ComparisonsPillarPage() {
             <p className="max-w-2xl text-lg leading-8 text-kivora-ink/70 md:text-xl">
               Direct comparison matrices for Kivora vs Planner 5D, RoomGPT,
               REimagineHome, Remodel AI, HomeDesignsAI, Homestyler — plus
-              competitor-vs-competitor pages and a best AI kitchen design tools
-              guide.
+              competitor-vs-competitor pages and best-of guides for AI kitchen
+              design and remodel tools.
             </p>
           </div>
         </header>
