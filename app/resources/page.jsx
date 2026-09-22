@@ -9,7 +9,7 @@ export const metadata = {
   description:
     "Kivora resources for AI kitchen design — guides, free remodel tools, competitor alternatives, competitor comparisons, and the AI Kitchen Design pillar for planning remodels with confidence.",
   keywords:
-    "ai kitchen design, best tool to visualize a kitchen remodel, best kitchen visualizer, kivora resources",
+    "ai kitchen design, best tool to preview kitchen cabinets, best tool to visualize kitchen colors, kivora resources",
   alternates: {
     canonical: "https://kivora.collabtower.com/resources",
   },
@@ -257,6 +257,18 @@ const clusterPages = [
     label: "Best tool to visualize a kitchen remodel",
     description:
       "Best-of guide for tools to visualize a kitchen remodel before you build — photo AI, planners, design apps.",
+  },
+  {
+    href: "/best-tool-to-preview-kitchen-cabinets",
+    label: "Best tool to preview kitchen cabinets",
+    description:
+      "Best-of guide for tools to preview kitchen cabinets before ordering — photo AI, planners, design apps.",
+  },
+  {
+    href: "/best-tool-to-visualize-kitchen-colors",
+    label: "Best tool to visualize kitchen colors",
+    description:
+      "Best-of guide for tools to visualize kitchen colors before painting or remodeling — photo AI, planners, design apps.",
   },
 ];
 

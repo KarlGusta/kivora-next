@@ -9,9 +9,9 @@ const SITE_URL = "https://kivora.collabtower.com";
 export const metadata = {
   title: "Competitor Comparisons | Kivora vs Kitchen Design Tools",
   description:
-    "Head-to-head comparison matrices and best-of guides for AI kitchen design, remodel, interior, visualizer, design software, remodeling software, renovation apps, design apps, planners, visualization software, virtual kitchen designers, homeowner tools, interior designer software, contractor tools, beginners, and decision-stage visualization tools.",
+    "Head-to-head comparison matrices and best-of guides for AI kitchen design, remodel, interior, visualizer, design software, remodeling software, renovation apps, design apps, planners, visualization software, virtual kitchen designers, homeowner tools, interior designer software, contractor tools, beginners, and decision-stage tools for remodel visualization, cabinets, and colors.",
   keywords:
-    "kivora vs planner 5d, best tool to visualize a kitchen remodel, best kitchen visualizer, competitor comparisons kivora",
+    "kivora vs planner 5d, best tool to preview kitchen cabinets, best tool to visualize kitchen colors, competitor comparisons kivora",
   alternates: {
     canonical: `${SITE_URL}/comparisons`,
   },
@@ -213,6 +213,20 @@ const comparisonPages = [
     label: "Best tool to visualize a kitchen remodel",
     description:
       "Best-of guide for tools to visualize a kitchen remodel before you build — photo AI, planners, design apps.",
+    badge: "Live",
+  },
+  {
+    href: "/best-tool-to-preview-kitchen-cabinets",
+    label: "Best tool to preview kitchen cabinets",
+    description:
+      "Best-of guide for tools to preview kitchen cabinets before ordering — photo AI, planners, design apps.",
+    badge: "Live",
+  },
+  {
+    href: "/best-tool-to-visualize-kitchen-colors",
+    label: "Best tool to visualize kitchen colors",
+    description:
+      "Best-of guide for tools to visualize kitchen colors before painting or remodeling — photo AI, planners, design apps.",
     badge: "Live",
   },
 ];
