@@ -9,9 +9,9 @@ const SITE_URL = "https://kivora.collabtower.com";
 export const metadata = {
   title: "Competitor Comparisons | Kivora vs Kitchen Design Tools",
   description:
-    "Head-to-head comparison matrices and best-of guides for AI kitchen design, remodel, interior, visualizer, design software, remodeling software, renovation apps, design apps, planners, visualization software, and virtual kitchen designers.",
+    "Head-to-head comparison matrices and best-of guides for AI kitchen design, remodel, interior, visualizer, design software, remodeling software, renovation apps, design apps, planners, visualization software, virtual kitchen designers, and homeowner tools.",
   keywords:
-    "kivora vs planner 5d, best virtual kitchen designer, best kitchen visualization software, best kitchen planner, competitor comparisons kivora",
+    "kivora vs planner 5d, best kitchen design tool for homeowners, best virtual kitchen designer, competitor comparisons kivora",
   alternates: {
     canonical: `${SITE_URL}/comparisons`,
   },
@@ -166,6 +166,13 @@ const comparisonPages = [
       "Best-of guide for virtual kitchen designer tools — photo AI, online planners, and general design apps.",
     badge: "Live",
   },
+  {
+    href: "/best-kitchen-design-tool-for-homeowners",
+    label: "Best kitchen design tool for homeowners",
+    description:
+      "Best-of guide for kitchen design tools built for homeowners — easy start, clear visuals, shareable decisions.",
+    badge: "Live",
+  },
 ];
 
 const comingSoon = [
@@ -202,7 +209,7 @@ export default function ComparisonsPillarPage() {
             <p className="max-w-2xl text-lg leading-8 text-kivora-ink/70 md:text-xl">
               Direct comparison matrices for Kivora vs major kitchen design tools
               — plus competitor-vs-competitor pages and best-of guides for design,
-              remodel, visualizer, software, apps, planners, and virtual designers.
+              remodel, visualizer, software, apps, planners, and homeowner tools.
             </p>
           </div>
         </header>
