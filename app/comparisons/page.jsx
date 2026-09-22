@@ -9,9 +9,9 @@ const SITE_URL = "https://kivora.collabtower.com";
 export const metadata = {
   title: "Competitor Comparisons | Kivora vs Kitchen Design Tools",
   description:
-    "Head-to-head comparison matrices and best-of guides for AI kitchen design, remodel, interior, visualizer, design software, remodeling software, renovation apps, design apps, planners, visualization software, virtual kitchen designers, homeowner tools, interior designer software, contractor tools, beginners, and decision-stage tools for remodel visualization, cabinets, colors, and kitchen styles.",
+    "Head-to-head comparison matrices and best-of guides for AI kitchen design, remodel, interior, visualizer, design software, remodeling software, renovation apps, design apps, planners, visualization software, virtual kitchen designers, homeowner tools, interior designer software, contractor tools, beginners, and decision-stage tools for remodel visualization, cabinets, colors, styles, and pre-construction renovation visualization.",
   keywords:
-    "kivora vs planner 5d, best tool to try different kitchen styles, best tool to visualize kitchen colors, competitor comparisons kivora",
+    "kivora vs planner 5d, best tool to visualize a kitchen renovation before construction, best tool to visualize a kitchen remodel, competitor comparisons kivora",
   alternates: {
     canonical: `${SITE_URL}/comparisons`,
   },
@@ -234,6 +234,13 @@ const comparisonPages = [
     label: "Best tool to try different kitchen styles",
     description:
       "Best-of guide for tools to try different kitchen styles before remodeling — photo AI, room restylers, planners.",
+    badge: "Live",
+  },
+  {
+    href: "/best-tool-to-visualize-a-kitchen-renovation-before-construction",
+    label: "Best tool to visualize a kitchen renovation before construction",
+    description:
+      "Best-of guide for tools to visualize a kitchen renovation before construction — photo AI, planners, design apps.",
     badge: "Live",
   },
 ];
