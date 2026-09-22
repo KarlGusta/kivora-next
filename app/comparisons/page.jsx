@@ -9,9 +9,9 @@ const SITE_URL = "https://kivora.collabtower.com";
 export const metadata = {
   title: "Competitor Comparisons | Kivora vs Kitchen Design Tools",
   description:
-    "Head-to-head comparison matrices and best-of guides for AI kitchen design, remodel, interior, visualizer, design software, remodeling software, renovation apps, and design apps.",
+    "Head-to-head comparison matrices and best-of guides for AI kitchen design, remodel, interior, visualizer, design software, remodeling software, renovation apps, design apps, and kitchen planners.",
   keywords:
-    "kivora vs planner 5d, best kitchen design apps, best kitchen renovation apps, best kitchen design software, competitor comparisons kivora",
+    "kivora vs planner 5d, best kitchen planner, best kitchen design apps, competitor comparisons kivora",
   alternates: {
     canonical: `${SITE_URL}/comparisons`,
   },
@@ -145,6 +145,13 @@ const comparisonPages = [
       "Best-of guide for kitchen design apps — photo AI, planners, and general design apps for design decisions.",
     badge: "Live",
   },
+  {
+    href: "/best-kitchen-planner",
+    label: "Best kitchen planner",
+    description:
+      "Best-of guide for kitchen planner tools — measured floor planners vs photo AI vs general design apps.",
+    badge: "Live",
+  },
 ];
 
 const comingSoon = [
@@ -181,7 +188,7 @@ export default function ComparisonsPillarPage() {
             <p className="max-w-2xl text-lg leading-8 text-kivora-ink/70 md:text-xl">
               Direct comparison matrices for Kivora vs major kitchen design tools
               — plus competitor-vs-competitor pages and best-of guides for design,
-              remodel, visualizer, software, and apps.
+              remodel, visualizer, software, apps, and planners.
             </p>
           </div>
         </header>
