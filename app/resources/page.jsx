@@ -9,7 +9,7 @@ export const metadata = {
   description:
     "Kivora resources for AI kitchen design — guides, free remodel tools, competitor alternatives, competitor comparisons, and the AI Kitchen Design pillar for planning remodels with confidence.",
   keywords:
-    "ai kitchen design, ai kitchen designer, kitchen remodel resources, best ai kitchen design tools, best kitchen visualizer, best kitchen design software, kivora resources",
+    "ai kitchen design, best kitchen design software, best kitchen remodeling software, best kitchen visualizer, kivora resources",
   alternates: {
     canonical: "https://kivora.collabtower.com/resources",
   },
@@ -179,6 +179,12 @@ const clusterPages = [
     label: "Best kitchen design software",
     description:
       "Best-of guide for kitchen design software — photo AI, 2D/3D planners, and general design apps by remodel stage.",
+  },
+  {
+    href: "/best-kitchen-remodeling-software",
+    label: "Best kitchen remodeling software",
+    description:
+      "Best-of guide for kitchen remodeling software — photo AI, planners, and general remodel apps by project stage.",
   },
 ];
 

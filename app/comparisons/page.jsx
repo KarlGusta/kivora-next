@@ -9,9 +9,9 @@ const SITE_URL = "https://kivora.collabtower.com";
 export const metadata = {
   title: "Competitor Comparisons | Kivora vs Kitchen Design Tools",
   description:
-    "Head-to-head comparison matrices: Kivora vs Planner 5D, RoomGPT, REimagineHome, Remodel AI, HomeDesignsAI, Homestyler, plus competitor-vs-competitor pages and best-of guides for AI kitchen design, remodel, interior, visualizer, and design software.",
+    "Head-to-head comparison matrices and best-of guides for AI kitchen design, remodel, interior, visualizer, design software, and remodeling software.",
   keywords:
-    "kivora vs planner 5d, best ai kitchen design tools, best kitchen visualizer, best kitchen design software, competitor comparisons kivora",
+    "kivora vs planner 5d, best kitchen design software, best kitchen remodeling software, best kitchen visualizer, competitor comparisons kivora",
   alternates: {
     canonical: `${SITE_URL}/comparisons`,
   },
@@ -124,6 +124,13 @@ const comparisonPages = [
       "Best-of guide for kitchen design software — photo AI, 2D/3D planners, and general design apps by remodel stage.",
     badge: "Live",
   },
+  {
+    href: "/best-kitchen-remodeling-software",
+    label: "Best kitchen remodeling software",
+    description:
+      "Best-of guide for kitchen remodeling software — photo AI, planners, and general remodel apps by project stage.",
+    badge: "Live",
+  },
 ];
 
 const comingSoon = [
@@ -159,8 +166,8 @@ export default function ComparisonsPillarPage() {
             </h1>
             <p className="max-w-2xl text-lg leading-8 text-kivora-ink/70 md:text-xl">
               Direct comparison matrices for Kivora vs major kitchen design tools
-              — plus competitor-vs-competitor pages and best-of guides for AI
-              kitchen design, remodel, interior, visualizer, and design software.
+              — plus competitor-vs-competitor pages and best-of guides for design,
+              remodel, visualizer, and software tools.
             </p>
           </div>
         </header>
