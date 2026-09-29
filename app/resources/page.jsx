@@ -91,6 +91,12 @@ const clusterPages = [
       "Client-ready kitchen remodel visuals from a photo — faster approvals and fewer mid-job changes.",
   },
   {
+    href: "/kitchen-remodel-software-for-homeowners",
+    label: "Kitchen remodel software for homeowners",
+    description:
+      "See realistic remodel concepts from a photo of your kitchen before you commit — no design skills required.",
+  },
+  {
     href: "/planner-5d-alternatives",
     label: "Planner 5D Alternatives",
     description:
