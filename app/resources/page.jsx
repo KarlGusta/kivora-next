@@ -79,6 +79,12 @@ const clusterPages = [
       "Customer-ready remodel concepts from a kitchen photo — stronger sales and faster design decisions.",
   },
   {
+    href: "/kitchen-visualization-software-for-designers",
+    label: "Kitchen visualization software for designers",
+    description:
+      "Photo-based kitchen visualization for designers — client-ready remodel concepts before detailed drawings.",
+  },
+  {
     href: "/planner-5d-alternatives",
     label: "Planner 5D Alternatives",
     description:
