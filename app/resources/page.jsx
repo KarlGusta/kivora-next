@@ -127,6 +127,12 @@ const clusterPages = [
       "Remodel concepts for spacious layouts from a photo — align style across islands, zones, and finishes.",
   },
   {
+    href: "/ai-kitchen-designer-for-apartments",
+    label: "AI kitchen designer for apartments",
+    description:
+      "Remodel concepts for rental and condo kitchens from a photo — style upgrades without assuming you can move walls.",
+  },
+  {
     href: "/planner-5d-alternatives",
     label: "Planner 5D Alternatives",
     description:
