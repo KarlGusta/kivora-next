@@ -103,6 +103,12 @@ const clusterPages = [
       "Client-ready remodel concepts from a kitchen photo — stronger proposals without a large design team.",
   },
   {
+    href: "/kitchen-design-software-for-beginners",
+    label: "Kitchen design software for beginners",
+    description:
+      "Realistic remodel ideas from a kitchen photo — no CAD skills or design degree required.",
+  },
+  {
     href: "/planner-5d-alternatives",
     label: "Planner 5D Alternatives",
     description:
