@@ -73,6 +73,12 @@ const clusterPages = [
       "Remodel visualization from the real kitchen photo — lock style before materials and labor.",
   },
   {
+    href: "/ai-kitchen-design-software-for-kitchen-companies",
+    label: "AI kitchen design software for kitchen companies",
+    description:
+      "Customer-ready remodel concepts from a kitchen photo — stronger sales and faster design decisions.",
+  },
+  {
     href: "/planner-5d-alternatives",
     label: "Planner 5D Alternatives",
     description:
