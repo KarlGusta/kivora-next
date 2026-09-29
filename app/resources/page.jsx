@@ -133,6 +133,12 @@ const clusterPages = [
       "Remodel concepts for rental and condo kitchens from a photo — style upgrades without assuming you can move walls.",
   },
   {
+    href: "/ai-kitchen-designer-for-rental-kitchens",
+    label: "AI kitchen designer for rental kitchens",
+    description:
+      "Style upgrades from a photo for leased kitchens — reversible looks that respect landlord rules.",
+  },
+  {
     href: "/planner-5d-alternatives",
     label: "Planner 5D Alternatives",
     description:
