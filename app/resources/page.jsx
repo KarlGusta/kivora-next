@@ -49,6 +49,30 @@ const pillarPages = [
 
 const clusterPages = [
   {
+    href: "/ai-kitchen-design-software-for-homeowners",
+    label: "AI kitchen design software for homeowners",
+    description:
+      "Photo-based AI kitchen design software built for homeowners — see the remodel before you commit, no 3D skills required.",
+  },
+  {
+    href: "/ai-kitchen-design-software-for-interior-designers",
+    label: "AI kitchen design software for interior designers",
+    description:
+      "Generate realistic kitchen remodel concepts from client photos — faster style alignment before detailed drawings.",
+  },
+  {
+    href: "/ai-kitchen-design-software-for-contractors",
+    label: "AI kitchen design software for contractors",
+    description:
+      "Client-ready kitchen remodel visuals from a photo — faster approvals and fewer mid-job changes.",
+  },
+  {
+    href: "/ai-kitchen-design-software-for-remodelers",
+    label: "AI kitchen design software for remodelers",
+    description:
+      "Remodel visualization from the real kitchen photo — lock style before materials and labor.",
+  },
+  {
     href: "/planner-5d-alternatives",
     label: "Planner 5D Alternatives",
     description:
@@ -365,7 +389,7 @@ export default function ResourcesPage() {
             Cluster pages
           </h2>
           <p className="mt-2 max-w-2xl text-sm leading-6 text-kivora-ink/60">
-            High-intent alternatives and comparison pages under the pillars.
+            High-intent alternatives, comparisons, best-of guides, and software-for-X pages.
           </p>
           <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {clusterPages.map((item) => (
