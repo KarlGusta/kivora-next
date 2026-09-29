@@ -139,6 +139,12 @@ const clusterPages = [
       "Style upgrades from a photo for leased kitchens — reversible looks that respect landlord rules.",
   },
   {
+    href: "/ai-kitchen-designer-for-outdated-kitchens",
+    label: "AI kitchen designer for outdated kitchens",
+    description:
+      "Modern remodel concepts from a photo of your dated kitchen — explore fresh looks before you commit.",
+  },
+  {
     href: "/planner-5d-alternatives",
     label: "Planner 5D Alternatives",
     description:
