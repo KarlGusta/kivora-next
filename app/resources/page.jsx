@@ -121,6 +121,12 @@ const clusterPages = [
       "Remodel concepts for compact kitchens from a photo — maximize look and function before you commit.",
   },
   {
+    href: "/ai-kitchen-designer-for-large-kitchens",
+    label: "AI kitchen designer for large kitchens",
+    description:
+      "Remodel concepts for spacious layouts from a photo — align style across islands, zones, and finishes.",
+  },
+  {
     href: "/planner-5d-alternatives",
     label: "Planner 5D Alternatives",
     description:
