@@ -145,6 +145,12 @@ const clusterPages = [
       "Modern remodel concepts from a photo of your dated kitchen — explore fresh looks before you commit.",
   },
   {
+    href: "/ai-kitchen-designer-for-modern-kitchens",
+    label: "AI kitchen designer for modern kitchens",
+    description:
+      "Contemporary remodel concepts from a kitchen photo — refine finishes and style before you commit.",
+  },
+  {
     href: "/planner-5d-alternatives",
     label: "Planner 5D Alternatives",
     description:
