@@ -97,6 +97,12 @@ const clusterPages = [
       "See realistic remodel concepts from a photo of your kitchen before you commit — no design skills required.",
   },
   {
+    href: "/kitchen-remodel-software-for-small-businesses",
+    label: "Kitchen remodel software for small businesses",
+    description:
+      "Client-ready remodel concepts from a kitchen photo — stronger proposals without a large design team.",
+  },
+  {
     href: "/planner-5d-alternatives",
     label: "Planner 5D Alternatives",
     description:
