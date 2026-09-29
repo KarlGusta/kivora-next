@@ -115,6 +115,12 @@ const clusterPages = [
       "Client-ready remodel concepts from kitchen photos — faster alignment before detailed drawings.",
   },
   {
+    href: "/ai-kitchen-designer-for-small-kitchens",
+    label: "AI kitchen designer for small kitchens",
+    description:
+      "Remodel concepts for compact kitchens from a photo — maximize look and function before you commit.",
+  },
+  {
     href: "/planner-5d-alternatives",
     label: "Planner 5D Alternatives",
     description:
