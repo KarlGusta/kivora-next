@@ -181,6 +181,12 @@ const clusterPages = [
       "Style guide for seasonal kitchens — adaptable color, soft accents, and photo-based remodel previews before you commit.",
   },
   {
+    href: "/contemporary-kitchen-design",
+    label: "Contemporary Kitchen Design (Style)",
+    description:
+      "Style guide for contemporary kitchens — current trends, mixed materials, and photo-based remodel previews before you commit.",
+  },
+  {
     href: "/planner-5d-alternatives",
     label: "Planner 5D Alternatives",
     description:
