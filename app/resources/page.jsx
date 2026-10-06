@@ -229,6 +229,12 @@ const clusterPages = [
       "Style guide for coastal kitchens — light blues, sandy neutrals, and photo-based remodel previews before you commit.",
   },
   {
+    href: "/mediterranean-kitchen-design",
+    label: "Mediterranean Kitchen Design (Style)",
+    description:
+      "Style guide for Mediterranean kitchens — warm tones, textured finishes, and photo-based remodel previews before you commit.",
+  },
+  {
     href: "/planner-5d-alternatives",
     label: "Planner 5D Alternatives",
     description:
