@@ -175,6 +175,12 @@ const clusterPages = [
       "Style guide for luxury kitchens — premium materials, refined detailing, and photo-based remodel previews before you commit.",
   },
   {
+    href: "/seasonal-kitchen-design",
+    label: "Seasonal Kitchen Design (Style)",
+    description:
+      "Style guide for seasonal kitchens — adaptable color, soft accents, and photo-based remodel previews before you commit.",
+  },
+  {
     href: "/planner-5d-alternatives",
     label: "Planner 5D Alternatives",
     description:
