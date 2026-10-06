@@ -247,6 +247,12 @@ const clusterPages = [
       "Minimalist kitchen remodel ideas — essential forms, restrained palettes, and photo-based remodel previews before you commit.",
   },
   {
+    href: "/luxury-kitchen-remodel-ideas",
+    label: "Luxury Kitchen Remodel Ideas",
+    description:
+      "Luxury kitchen remodel ideas — premium materials, refined detailing, and photo-based remodel previews before you commit.",
+  },
+  {
     href: "/planner-5d-alternatives",
     label: "Planner 5D Alternatives",
     description:
