@@ -193,6 +193,12 @@ const clusterPages = [
       "Style guide for farmhouse kitchens — shaker cabinets, warm materials, and photo-based remodel previews before you commit.",
   },
   {
+    href: "/scandinavian-kitchen-design",
+    label: "Scandinavian Kitchen Design (Style)",
+    description:
+      "Style guide for Scandinavian kitchens — light wood, soft neutrals, and photo-based remodel previews before you commit.",
+  },
+  {
     href: "/planner-5d-alternatives",
     label: "Planner 5D Alternatives",
     description:
