@@ -253,6 +253,12 @@ const clusterPages = [
       "Luxury kitchen remodel ideas — premium materials, refined detailing, and photo-based remodel previews before you commit.",
   },
   {
+    href: "/rustic-kitchen-remodel-ideas",
+    label: "Rustic Kitchen Remodel Ideas",
+    description:
+      "Rustic kitchen remodel ideas — natural wood, warm textures, and photo-based remodel previews before you commit.",
+  },
+  {
     href: "/planner-5d-alternatives",
     label: "Planner 5D Alternatives",
     description:
