@@ -241,6 +241,12 @@ const clusterPages = [
       "Modern kitchen remodel ideas — clean lines, flat-panel cabinets, and photo-based remodel previews before you commit.",
   },
   {
+    href: "/minimalist-kitchen-remodel-ideas",
+    label: "Minimalist Kitchen Remodel Ideas",
+    description:
+      "Minimalist kitchen remodel ideas — essential forms, restrained palettes, and photo-based remodel previews before you commit.",
+  },
+  {
     href: "/planner-5d-alternatives",
     label: "Planner 5D Alternatives",
     description:
