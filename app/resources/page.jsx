@@ -211,6 +211,12 @@ const clusterPages = [
       "Style guide for industrial kitchens — exposed materials, metal accents, and photo-based remodel previews before you commit.",
   },
   {
+    href: "/traditional-kitchen-design",
+    label: "Traditional Kitchen Design (Style)",
+    description:
+      "Style guide for traditional kitchens — classic cabinetry, warm finishes, and photo-based remodel previews before you commit.",
+  },
+  {
     href: "/planner-5d-alternatives",
     label: "Planner 5D Alternatives",
     description:
