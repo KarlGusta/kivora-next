@@ -157,6 +157,12 @@ const clusterPages = [
       "Style guide for modern kitchens — clean lines, materials, and photo-based remodel previews before you commit.",
   },
   {
+    href: "/rustic-kitchen-design",
+    label: "Rustic Kitchen Design (Style)",
+    description:
+      "Style guide for rustic kitchens — natural wood, warm textures, farmhouse charm, and photo-based remodel previews before you commit.",
+  },
+  {
     href: "/planner-5d-alternatives",
     label: "Planner 5D Alternatives",
     description:
@@ -468,48 +474,42 @@ export default function ResourcesPage() {
           </div>
         </section>
 
-        <section className="mx-auto max-w-7xl border-t border-kivora-ink/10 px-5 py-16 md:px-8">
+        <section className="mx-auto max-w-7xl px-5 py-8 md:px-8">
           <h2 className="text-2xl font-semibold text-kivora-ink md:text-3xl">
             Cluster pages
           </h2>
           <p className="mt-2 max-w-2xl text-sm leading-6 text-kivora-ink/60">
-            Supporting pages that expand each pillar into specific search intents.
+            Supporting landing pages for audience, use-case, competitor, and style
+            searches.
           </p>
-          <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {clusterPages.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className="group block border border-kivora-ink/10 bg-white p-6 transition-colors hover:border-kivora-purple/40"
+                className="group block border border-kivora-ink/10 bg-white p-5 transition-colors hover:border-kivora-ink/25"
               >
-                <h3 className="text-lg font-semibold text-kivora-ink">
+                <h3 className="text-base font-semibold text-kivora-ink">
                   {item.label}
                 </h3>
-                <p className="mt-3 text-sm leading-6 text-kivora-ink/65">
+                <p className="mt-2 text-sm leading-6 text-kivora-ink/65">
                   {item.description}
                 </p>
-                <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-kivora-purple">
-                  Open
-                  <ArrowRight
-                    size={14}
-                    className="transition-transform group-hover:translate-x-0.5"
-                  />
-                </span>
               </Link>
             ))}
           </div>
         </section>
 
-        <section className="mx-auto max-w-7xl border-t border-kivora-ink/10 px-5 py-16 md:px-8">
+        <section className="mx-auto max-w-7xl px-5 py-16 md:px-8">
           <h2 className="text-2xl font-semibold text-kivora-ink md:text-3xl">
-            More resources
+            Tools & reading
           </h2>
           <div className="mt-8 grid gap-4 sm:grid-cols-2">
             {resourceLinks.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className="group block border border-kivora-ink/10 bg-white p-6 transition-colors hover:border-kivora-purple/40"
+                className="group block border border-kivora-ink/10 bg-white p-6 transition-colors hover:border-kivora-ink/25"
               >
                 <h3 className="text-lg font-semibold text-kivora-ink">
                   {item.label}
@@ -529,10 +529,10 @@ export default function ResourcesPage() {
           </div>
         </section>
 
-        <section className="mx-auto max-w-7xl px-5 md:px-8">
-          <div className="border border-kivora-ink/10 bg-white px-6 py-12 text-center md:px-10">
+        <section className="mx-auto max-w-7xl px-5 py-8 md:px-8">
+          <div className="border border-kivora-ink/10 bg-white p-10 text-center md:p-14">
             <h2 className="text-3xl font-semibold text-kivora-ink md:text-4xl">
-              Ready to visualize your kitchen remodel?
+              Ready to visualize your kitchen?
             </h2>
             <p className="mx-auto mt-4 max-w-xl text-base leading-7 text-kivora-ink/70">
               Upload a photo and generate realistic remodel concepts in seconds.
