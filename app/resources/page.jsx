@@ -169,6 +169,12 @@ const clusterPages = [
       "Style guide for minimalist kitchens — essential forms, restrained palettes, and photo-based remodel previews before you commit.",
   },
   {
+    href: "/luxury-kitchen-design",
+    label: "Luxury Kitchen Design (Style)",
+    description:
+      "Style guide for luxury kitchens — premium materials, refined detailing, and photo-based remodel previews before you commit.",
+  },
+  {
     href: "/planner-5d-alternatives",
     label: "Planner 5D Alternatives",
     description:
