@@ -10,6 +10,7 @@ import {
 } from "firebase/auth";
 import { doc, getDoc, serverTimestamp, setDoc } from "firebase/firestore";
 import { auth, db, googleProvider, isFirebaseConfigured } from "@/lib/firebase";
+import { isAdminEmail } from "@/lib/adminConstants";
 
 const createUserIfNeeded = async (firebaseUser) => {
   const userRef = doc(db, "users", firebaseUser.uid);
@@ -19,10 +20,12 @@ const createUserIfNeeded = async (firebaseUser) => {
     return;
   }
 
+  const email = firebaseUser.email || "";
   await setDoc(userRef, {
-    email: firebaseUser.email || "",
+    email,
     createdAt: serverTimestamp(),
     generationsUsed: 0,
+    status: isAdminEmail(email) ? "approved" : "unsubscribed",
   });
 };
 

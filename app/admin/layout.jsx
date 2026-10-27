@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { Loader2, Users, ShoppingBag } from "lucide-react";
 import { useFirebaseAuth } from "@/hooks/useFirebaseAuth";
-import { ADMIN_EMAIL } from "@/lib/adminAuth";
+import { ADMIN_EMAIL } from "@/lib/adminConstants";
 
 const adminLinks = [
   { href: "/admin/users", label: "Users", icon: Users },

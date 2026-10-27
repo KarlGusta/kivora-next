@@ -7,7 +7,7 @@ import {
   syncGumroadAdminUsers,
   updateAdminUserStatus,
 } from "@/lib/adminApi";
-import { isAdminEmail } from "@/lib/adminAuth";
+import { isAdminEmail } from "@/lib/adminConstants";
 
 const USER_STATUS_OPTIONS = [
   { value: "approved", label: "Approved" },
