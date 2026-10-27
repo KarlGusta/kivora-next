@@ -1,4 +1,4 @@
-import LoginPageClient from "@/components/auth/LoginPageClient";
+import AuthPageClient from "@/components/auth/AuthPageClient";
 
 export const metadata = {
   title: "Login",
@@ -8,5 +8,5 @@ export const metadata = {
 };
 
 export default function LoginPage() {
-  return <LoginPageClient />;
+  return <AuthPageClient mode="login" />;
 }

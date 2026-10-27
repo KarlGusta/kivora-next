@@ -1,4 +1,4 @@
-import RegisterPageClient from "@/components/auth/RegisterPageClient";
+import AuthPageClient from "@/components/auth/AuthPageClient";
 
 export const metadata = {
   title: "Register",
@@ -8,5 +8,5 @@ export const metadata = {
 };
 
 export default function RegisterPage() {
-  return <RegisterPageClient />;
+  return <AuthPageClient mode="register" />;
 }
