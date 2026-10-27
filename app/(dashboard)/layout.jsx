@@ -12,9 +12,11 @@ import {
   Loader2,
   LogOut,
   Settings,
+  Shield,
 } from "lucide-react";
 import { useFirebaseAuth } from "@/hooks/useFirebaseAuth";
 import { AppShellContext } from "@/lib/appShellContext";
+import { isAdminEmail } from "@/lib/adminConstants";
 
 const sidebarItems = [
   { href: "/create", label: "Create", icon: ImagePlus },
@@ -35,6 +37,10 @@ export default function DashboardLayout({ children }) {
   const router = useRouter();
   const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false);
   const currentYear = new Date().getFullYear();
+  const showAdmin = isAdminEmail(user?.email || "");
+  const navItems = showAdmin
+    ? [...sidebarItems, { href: "/admin/users", label: "Admin", icon: Shield }]
+    : sidebarItems;
 
   useEffect(() => {
     if (!isAuthLoading && !user) {
@@ -55,7 +61,6 @@ export default function DashboardLayout({ children }) {
 
   return (
     <div className="min-h-screen bg-kivora-surface text-kivora-ink lg:flex">
-      {/* Sidebar — same surface color as surrounding area */}
       <aside
         className={`border-b border-kivora-ink/10 bg-kivora-surface transition-[width] duration-300 lg:sticky lg:top-0 lg:flex lg:h-screen lg:shrink-0 lg:flex-col lg:border-b-0 lg:border-r ${
           isSidebarCollapsed ? "lg:w-20" : "lg:w-64"
@@ -93,9 +98,11 @@ export default function DashboardLayout({ children }) {
             isSidebarCollapsed ? "lg:px-0" : "lg:px-6"
           }`}
         >
-          {sidebarItems.map((item) => {
+          {navItems.map((item) => {
             const Icon = item.icon;
-            const isActive = pathname === item.href;
+            const isActive =
+              pathname === item.href ||
+              (item.href.startsWith("/admin") && pathname.startsWith("/admin"));
 
             return (
               <Link
@@ -117,7 +124,6 @@ export default function DashboardLayout({ children }) {
         </nav>
       </aside>
 
-      {/* Main column — surface background; content sits in a card */}
       <div className="flex min-w-0 flex-1 flex-col bg-kivora-surface">
         <header className="bg-kivora-surface">
           <div className="flex min-h-16 items-center justify-end gap-4 px-5 py-4 md:px-8">
@@ -138,14 +144,12 @@ export default function DashboardLayout({ children }) {
           </div>
         </header>
 
-        {/* Dashboard content in a card (Gmail-style) */}
         <main className="mx-auto w-full max-w-7xl flex-1 px-5 pb-6 md:px-8">
           <div className="rounded-2xl border border-kivora-ink/10 bg-white p-5 shadow-sm md:p-8">
             <AppShellContext.Provider value={{ user, logout }}>{children}</AppShellContext.Provider>
           </div>
         </main>
 
-        {/* Footer — same surface color as surrounding areas */}
         <footer className="bg-kivora-surface px-5 py-8 md:px-8">
           <div className="mx-auto flex w-full max-w-7xl flex-col gap-5 text-sm text-kivora-ink/50 md:flex-row md:items-center md:justify-between">
             <p>© {currentYear} Kivora</p>
